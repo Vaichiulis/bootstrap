@@ -1,8 +1,40 @@
 .bandom {
     width: 200px;
     height: 200px;
-    color: brown;
+    color: rgb(42, 165, 118);
 }
-.mb-3 {
-    background-color: aqua;
+
+.logo {   
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+.container {
+    display:flex;
+    justify-content:space-between;
+    margin-top: 50px;
+    flex-wrap:inherit;
+}
+@media screen and (max-width:500px) {
+    .container {
+        flex-wrap:wrap;
+    }
+}
+
+.card {
+border: 0 !important;
+min-width: 230px !important;
+}
+.btn-primary{
+    background-color: rgb(250, 171, 2) !important;
+    border-color: rgb(250, 171, 2) !important;
+    color:black !important;
+}
+.fotobox{
+    width: 600px;
+    min-width: 200px;
+        margin-left: 15px;
+}
+.big{
+    width: fit-content;
 }

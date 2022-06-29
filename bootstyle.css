@@ -40,18 +40,22 @@ min-width: 230px !important;
     min-width: 200px;
         margin-left: 15px;
 }
-
-.card-img-top{
-    margin-left: 10px;
-    margin-right: 10px;
+.container1 {
+    position: relative;
+    width: 30%;
 }
 
-.card-img-top{
-    margin-top: 10px !important;
-}
-.first{
-   height: 66.66%;
-}
-.card little{
-    margin:auto !important;
-}
+
+.container1 .pers {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+   
+  }
+  .card-img-top{
+    padding-left: 5px;
+    padding-right: 5px; 
+    min-width: 400px;   
+  }

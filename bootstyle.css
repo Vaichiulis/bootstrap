@@ -45,3 +45,13 @@ min-width: 230px !important;
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.card-img-top{
+    margin-top: 10px !important;
+}
+.first{
+   height: 66.66%;
+}
+.card little{
+    margin:auto !important;
+}

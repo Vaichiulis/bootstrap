@@ -3,6 +3,11 @@
     height: 200px;
     color: rgb(42, 165, 118);
 }
+body{
+    font-family: 'Montserrat' !important;
+    margin: 0 auto;
+    color: rgb(42, 42, 42);
+}
 
 .logo {   
     width: 50px;
@@ -35,6 +40,8 @@ min-width: 230px !important;
     min-width: 200px;
         margin-left: 15px;
 }
-.big{
-    width: fit-content;
+
+.card-img-top{
+    margin-left: 10px;
+    margin-right: 10px;
 }

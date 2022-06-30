@@ -1,14 +1,9 @@
-.bandom {
-    width: 200px;
-    height: 200px;
-    color: rgb(42, 165, 118);
-}
+
 body{
     font-family: 'Montserrat' !important;
     margin: 0 auto;
     color: rgb(42, 42, 42);
 }
-
 .logo {   
     width: 50px;
     height: 50px;
@@ -25,7 +20,6 @@ body{
         flex-wrap:wrap;
     }
 }
-
 .card {
 border: 0 !important;
 min-width: 230px !important;
@@ -38,23 +32,34 @@ min-width: 230px !important;
 .fotobox{
     width: 600px;
     min-width: 200px;
-        margin-left: 15px;
-}
-.container1 {
-    position: relative;
-    width: 30%;
-}
-
-
-.container1 .pers {
-    position: absolute;
-    bottom: 5%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-   
-  }
+        margin-left: 15px;}
   .card-img-top{
     padding-left: 5px;
-   
-  }
+     }
+.formsa{
+    width: 30rem;
+}
+.blackfooter{
+    background-color: black;
+}
+.linkcontainer{
+    padding: 30px 50px 20px 0;
+}
+.pwhite{
+    color: azure;
+    margin: 30px auto 20px 20px;
+}
+.oft{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.foot{
+    color: azure;
+    margin:auto;
+}
+.foot-cont{
+    display: flex;
+}
+.small{
+    display: flex;
+}
